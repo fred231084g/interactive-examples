@@ -1,9 +1,0 @@
-ol {
-    counter-reset: index;
-    list-style-type: none;
-}
-
-li::before {
-    counter-increment: index;
-    content: counters(index, ".", decimal) " ";
-}
